@@ -1,0 +1,61 @@
+.body {
+  text-align: center;
+  font-size: 16px;
+  background-color: white;
+}
+
+.title{
+  color: black;
+  font-size: 36px;
+  font-family: "Arial Black";
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title::before, .title:after {
+  border-top: 1px solid;
+  content: "";
+  width: 5em;
+}
+
+.title:before {
+  margin-right: 1em;
+}
+.title:after {
+  margin-left: 1em;
+}
+
+.workGroup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 10rem;
+  
+  div{
+    width:100%;
+    
+    img{
+      width:640px;
+      height:360px;
+      margin:0 1rem 0 1rem;
+    }
+  } 
+}
+
+.gametitle{
+  color: black;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.text{
+  color: black;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-align: left;
+  margin: 0 3rem 0 3rem;
+}
